@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run:unknown": "APP_ENV=unknown node index.js",
+    "run:local": "APP_ENV=local node index.js",
+    "run:dev": "APP_ENV=dev node index.js",
+    "run:stg": "APP_ENV=stg node index.js",
+    "run:prod": "APP_ENV=prod node index.js"
   },
   "repository": {
     "type": "git",
